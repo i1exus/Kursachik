@@ -13,8 +13,6 @@ import javax.persistence.Column;
 @NoArgsConstructor
 public class ProfileDto {
     private Long id;
-
-
     private String name;
     private String surname;
     private String patronymic;

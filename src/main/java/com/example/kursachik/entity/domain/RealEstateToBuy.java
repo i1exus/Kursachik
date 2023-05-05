@@ -1,6 +1,6 @@
 package com.example.kursachik.entity.domain;
 
-import com.example.kursachik.service.user.RealEstateToBuyService;
+import com.example.kursachik.service.EstateToBuy.RealEstateToBuyService;
 import lombok.*;
 
 
@@ -14,7 +14,7 @@ import java.sql.Date;
 @NoArgsConstructor
 @Entity
 @Table
-public class RealEstateToBuy implements RealEstateToBuyService {
+public class RealEstateToBuy {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
